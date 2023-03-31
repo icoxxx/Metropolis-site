@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metropolis</title>
+    <link rel="stylesheet" href="css-styles/style.css" type="text/css">
+</head>
+<body>
+
+    <!-- HIDDEN MENU START -->
+    <nav>
+        <div class="menu">
+            <div class="menuLogo">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="boxContainer">
+                <div class="textBox navMenuText">
+
+                    <span>
+                        <a href="index.html" target="_self" >НАЧАЛО</a>
+                    </span>
+
+                    <span>
+                        <a href="allVideos.html" target="_self" >ВИДЕО</a>
+                    </span>
+
+                    <span>
+                        <a href="news.html" target="_self" >НОВИНИ</a>
+                    </span>
+
+                    <span>
+                        <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                    </span>
+
+                    <span>
+                        <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                    </span>
+                </div>
+                <div class="logoBox">
+                    <img src="images/alien-white.png" width="250px" height="350px" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HIDDEN MENU END -->
+
+    <header>
+        <div id="robot">
+            <video autoplay loop muted>
+                <source src="video/metropolis-robot-1.mp4" type="video/mp4">
+            </video>
+            <a href="index.html"  target="_self">
+                <img id="logo" src="images/logo.svg" alt="">
+            </a>
+            <div id="news">
+                <p>НОВИНИ</p>
+             </div>
+    
+            <nav>
+                <div class="allNewsContainer" 
+                onclick="news()" 
+                onmouseover="addAnimation()" 
+                onmouseleave="removeAnimation()">
+                    <p class="allNews" >ВСИЧКИ</p>
+                    <p class="allNews" >ВСИЧКИ</p>
+                    <p class="allNews" >ВСИЧКИ</p>
+                </div>
+            </nav>
+            <nav>
+                <div class="hambButton" id="firstHam" onclick="hamburger()">
+                    <div class="bar1 hamBars"></div>
+                    <div class="bar2 hamBars"></div>
+                    <div class="bar3 hamBars"></div>
+                </div>
+             </nav>
+        </div>
+    </header>
+
+     <article>
+
+        <!-- NEWS SECTION START -->
+        <div class="grayBackground">
+            <div class="articleContainer">
+                <div class="content">
+                    <img src="images/metropolis-meltdown.png" id="firstImg" alt="Metropolis">
+                    <div class="box">
+                        <p>02
+                            <br>
+                            М А Р
+                        </p>
+                    </div>
+                    <div class="textContent">
+                         <p>02.03.2023</p>
+                         <p>МЕТРОПОЛИС</p>
+                         <br>
+                         <p class="favArtist textAnimation" 
+                         onmouseenter="addAnimation3(0)"
+                         onmouseleave="removeAnimation3()">
+                                Метрополис и новите лица на Техното
+                         </p>
+                         <p class="favArtist2 textAnimation" 
+                         onmouseenter="addAnimation3(0)"
+                         onmouseleave="removeAnimation3()">
+                                Метрополис и новите лица на Техното
+                         </p>
+                         <p class="favArtist3 textAnimation" 
+                         onclick="redirect('newsPages/futureHeroes.html')" 
+                         onmouseenter="addAnimation3(0)"
+                         onmouseleave="removeAnimation3()">
+                                Метрополис и новите лица на Техното
+                         </p>
+                            <br>
+                         <p id="grayFade1">
+                                Няма друга организация за електронна музика от такъв мащаб у нас, която да обръща толкова внимание на новите артисти от България и чужбина. 
+                                Защото смятаме, че публиката има право да се срещне с тях, а те заслужават тази среща. В това отношение наближ…
+                         </p>
+                    </div>
+                    <nav>
+                        <div class="seeMoreContainer" 
+                        onclick="redirect('newsPages/futureHeroes.html')" 
+                        onmouseenter="addAnimation2(event)" 
+                        onmouseleave="removeAnimation2('.seeMore')">
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        </div>
+                    </nav>
+                </div>   
+
+                <div class="content">
+                    <img src="images/metropolis-blue-meltdown.jpeg" id="secondImg" alt="Metropolis">
+                    <div class="box">
+                        <p>21
+                            <br>
+                            Ф Е В
+                        </p>
+                    </div>
+                    <div class="textContent">
+                        <p>21.02.2023</p>
+                        <p>МЕТРОПОЛИС</p>
+                        <br>
+                        <p class="favArtist textAnimation"
+                        onmouseenter="addAnimation3(1)"
+                        onmouseleave="removeAnimation3()"
+                        >
+                            Истинско техно от <br> Метрополис
+                        </p>
+                        <p class="favArtist2 textAnimation"
+                        onmouseenter="addAnimation3(1)"
+                        onmouseleave="removeAnimation3()"
+                        >
+                            Истинско техно от <br> Метрополис
+                        </p>
+                        <p class="favArtist3 textAnimation"
+                        onclick="redirect('newsPages/properTechno.html')" 
+                        onmouseenter="addAnimation3(1)"
+                        onmouseleave="removeAnimation3()"
+                        >
+                            Истинско техно от <br> Метрополис
+                        </p>
+                        <br>
+                        <p id="grayFade2">
+                            На 4ти март в Регионален Център за Съвременни Изкуства Топлоцентрала (зад НДК) 
+                            Метрополис ще представи за първи път в България две от най-горещите имена на съвременното 
+                            техно Nørbak и Quelza. В двете зали на пулта ще застанат Dj STEVEN, SHADE, ZIGGY,…
+                        </p>
+                    </div>
+                    <nav>
+                        <div class="seeMoreContainer" 
+                        onclick="redirect('newsPages/properTechno.html')" 
+                        onmouseenter="addAnimation2(event)" 
+                        onmouseleave="removeAnimation2('.seeMore')">
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        </div>
+                    </nav>
+                </div>
+
+                <div class="content">
+                        <img src="images/Optimized-PHRANK.jpeg" id="thirdImg"  alt="Metropolis">
+                        <div class="box">
+                            <p>10
+                                <br>
+                                Я Н У
+                            </p>
+                        </div>
+                        <div class="textContent">
+                            <p>10.01.2023</p>
+                            <p>МЕТРОПОЛИС</p>
+                            <br>
+                            <p class="favArtist textAnimation"
+                            onmouseenter="addAnimation3(2)"
+                            onmouseleave="removeAnimation3(event)"
+                            >
+                                Любими артисти на техно сцената на Pyramid Amnesia в София на 4ти февруари
+                            </p>
+                            <p class="favArtist textAnimation" id="favArtistText1"
+                            onmouseenter="addAnimation3(2)"
+                            onmouseleave="removeAnimation3(event)"
+                            >
+                                Любими артисти на техно сцената на Pyramid Amnesia в София на 4ти февруари
+                            </p>
+                            <p class="favArtist textAnimation" id="favArtistText2"
+                            onclick="redirect('newsPages/favArtists.html')" 
+                            onmouseenter="addAnimation3(2)"
+                            onmouseleave="removeAnimation3(event)"
+                            >
+                                Любими артисти на техно сцената на Pyramid Amnesia в София на 4ти февруари
+                            </p>
+                            <br>
+                            <p id="grayFade3">
+                                Огромният успех на Pyramid Amnesia е стъпил върху историята и неповторимата атмосфера,
+                                които са издигнали този супер клуб от остров Ибиса на космическо ниво, както и върху страхотния подбор на DJ…
+                            </p>
+                        </div>
+                        <nav>
+                            <div class="seeMoreContainer" 
+                            onclick="redirect('newsPages/favArtists.html')" 
+                            onmouseenter="addAnimation2(event)" 
+                            onmouseleave="removeAnimation2('.seeMore')">
+                                <p class="seeMore" >ВИЖ ОЩЕ</p>
+                                <p class="seeMore" >ВИЖ ОЩЕ</p>
+                                <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            </div>
+                        </nav>
+                         </div>
+                </div> 
+
+                <!-- NEWS SECTION END -->
+                <article>
+                    <div class="article2Container">
+                        <!-- EVENTS AND PODCAST SECTION -->
+                            <div id="sectionContainer">
+
+                                <div class="article2Title">
+                                    <p>СЪБИТИЯ</p>
+                                </div>
+
+                                <a href="https://www.facebook.com/events/755319146289491" target="_blank">
+                                    <img id="academy" src="images/mdja.jpeg" alt="">
+                                </a>
+
+                                <div class="article2Text">
+                                    <p>Metropolis DJ Academy II 
+                                    <br>
+                                        April 2023
+                                    </p>
+
+                                    <p id="textArtists">
+                                        Артисти
+                                    </p>
+                                    <p>
+                                        DJ Smurf, DJ Steven, Jasen
+                                        <br>
+                                        Petrov
+                                    </p>
+                                    <p id="dateText">
+                                        Дата и място
+                                    </p>
+                                    <p>
+                                        03.04.2023, Понеделник
+                                        <br>
+                                        <span>Топлоцентрала</span>
+                                    </p>
+                                    <p id="fbEvent">
+                                        Виж събитието във Facebook
+                                    </p>
+                                    <div class="ticketsContainer"
+                                    onclick="fbEvent()" 
+                                    onmouseenter="addAnimationButton(0, '.ticketsContainer', 1, 3, 5)" 
+                                    onmouseleave="removeAnimation2('.ticketsText')"
+                                    >
+                                        <p class="ticketsText" >БИЛЕТИ</p>
+                                        <p class="ticketsText" >БИЛЕТИ</p>
+                                        <p class="ticketsText" >БИЛЕТИ</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div id="sectionContainer2">
+
+                                <div class="article2Title">
+                                    <p>ПОДКАСТ</p>
+                                </div>
+
+                                <a id="linkTo" href="podcast.html">
+                                    <img id="podcastCover" class="podcastImg" src="images/podcastSmurf.jpeg" alt="">
+                                    <div class="playButton"></div>
+                                </a>
+                            </div>
+                     <!-- EVENTS AND PODCAST SECTION END -->
+                            <section>
+                                    <div class="vidSpeakersContainer">
+                                        <video autoplay loop muted id="vidSpeakers" src="video/vid_speakers.mp4"></video>
+                                    </div>
+                             </section>
+
+
+                             <!-- VIDEO AND RADIO SECTION -->
+                             <section class="wrap">
+                                    <div class="section2Container">
+
+                                        <div class="article2Title">
+                                            <p>ВИДЕО</p>
+                                        </div>
+
+                                        <div class="article2SecondTitle"
+                                        onclick="redirect('allVideos.html')" 
+                                        onmouseenter="addAnimationButton(0, '.article2SecondTitle', 1, 3, 5)" 
+                                        onmouseleave="removeAnimation2('.allVideosText')"
+                                        >
+                                            <p class="allVideosText">ВСИЧКИ</p>
+                                            <p class="allVideosText">ВСИЧКИ</p>
+                                            <p class="allVideosText">ВСИЧКИ</p>
+                                        </div>
+                                        <a id="videoLink" href="streaming.html">
+                                                <img id="videoImg" class="podcastImg" src="images/jassenVideo.jpeg" alt="Metropolis Video">
+                                                <div class="playButton2"></div>
+                                        </a>
+                                    </div>
+        
+        
+                                     <div class="section2Container2">
+
+
+                                        <div class="article2Title">
+                                            <p>РАДИО</p>
+                                        </div>
+                                        <img class="codaImg" src="images/coda-logo-1.png" alt="">
+                                        <div class="radioButtonContainer"
+                                        onclick="radio()" 
+                                        onmouseenter="addAnimationButton(0, '.radioButtonContainer', 1, 3, 5)" 
+                                        onmouseleave="removeAnimation2('.radioText')"
+                                        >
+                                            <p class="radioText">СЛУШАЙ</p>
+                                            <p class="radioText">СЛУШАЙ</p>
+                                            <p class="radioText">СЛУШАЙ</p>
+                                        </div>
+                                     </div>
+                             </section>
+
+                             <!-- VIDEO AND RADIO SECTION END -->
+
+                                <div class="grayOverlayContainer">
+                                    <span class="article3Title">
+                                        <p>АРТИСТИ</p>
+                                    </span>
+                                    <div class="allArtistsButton"
+                                    onclick="allArtists()" 
+                                    onmouseenter="addAnimationButton(0, '.allArtistsButton', 1, 3, 5)" 
+                                    onmouseleave="removeAnimation2('.allArtistsText')"
+                                    >
+                                        <p class="allArtistsText">ВСИЧКИ</p>
+                                        <p class="allArtistsText">ВСИЧКИ</p>
+                                        <p class="allArtistsText">ВСИЧКИ</p>
+                                    </div>
+
+                                    <!-- ARTIST SECTION -->
+                                    <div class="flexCont">
+                                        <div class="artistsImg">
+                                            <div>
+                                                <p class="djName" >DJ STEVEN</p>
+                                            </div>
+                                            <img class="djImg" width="100%" height="100%" src="images/dj-steven-1.jpeg" alt="">
+                                        </div>
+                                        <div class="artistsImg">
+                                            <div>
+                                                <p class="djName" >ZIMONE</p>
+                                            </div>
+                                            <img class="djImg" width="100%" height="100%" src="images/zimone-1.jpeg" alt="">
+                                        </div>
+                                        <div class="artistsImg">
+                                            <div>
+                                                <p class="djName" >JASSEN PETROV</p>
+                                            </div>
+                                            <img class="djImg" width="100%" height="100%" src="images/jassen-petrov-1.jpeg" alt="">
+                                        </div>
+
+                                    </div>
+                                    <!-- ARTIST SECTION END -->
+
+                                    <!--  FOOTER START   -->
+                                    <footer>
+                                        <div class="footer">
+
+                                            <div class="footerText">
+                                                <span>
+                                                    <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                                                </span>
+
+                                                <span>
+                                                    <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                                                </span>
+                                                
+                                                <span>
+                                                    <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                                                </span>
+                                                
+                                                <span>
+                                                    <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                                                </span>
+                                                
+                                                <span>
+                                                    <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                                                </span>
+                                            </div>
+
+                                            <div class="logoFooter">
+                                                <img src="images/alien-white.png" alt="">
+                                            </div>
+                                        </div>
+                                    </footer>
+                                    <!-- FOOTER END -->
+                                </div>
+
+                    </div>
+                </article>
+             </div>
+     </article>
+    
+    <script src="scripts/indexScript.js" ></script>
+</body>
+</html>

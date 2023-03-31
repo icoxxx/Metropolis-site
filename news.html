@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="css-styles/style.css">
+    <link rel="stylesheet" href="css-styles/news-style.css">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+            <div class="menuLogo">
+                <img src="images/logo.svg" alt="">
+            </div>
+            <div class="boxContainer">
+                <div class="textBox navMenuText">
+
+                    <span>
+                        <a href="index.html" target="_self" >НАЧАЛО</a>
+                    </span>
+
+                    <span>
+                        <a href="podcast.html" target="_self" >ПОДКАСТИ</a>
+                    </span>
+
+                    <span>
+                        <a href="news.html" target="_self" >НОВИНИ</a>
+                    </span>
+
+                    <span>
+                        <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                    </span>
+
+                    <span>
+                        <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                    </span>
+                </div>
+                <div class="logoBox">
+                    <img src="images/alien-white.png" width="250px" height="350px" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HIDDEN MENU END -->
+
+    <header>
+        <div id="robot">
+            <video autoplay loop muted>
+                <source src="video/vid_robot-3.mp4" type="video/mp4">
+            </video>
+            <a href="index.html"  target="_self">
+                <img id="logo" src="images/logo.svg" alt="">
+            </a>
+            <div id="news">
+                <p>НОВИНИ</p>
+             </div>
+
+            <nav>
+                <div class="hambButton" id="firstHam" onclick="hamburger()">
+                    <div class="bar1 hamBars"></div>
+                    <div class="bar2 hamBars"></div>
+                    <div class="bar3 hamBars"></div>
+                </div>
+             </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="newsPageFlexSection">
+            <article>
+                    <img src="images/metropolis-meltdown.png" id="firstImg" alt="Metropolis">
+                    <div class="box">
+                        <p>02
+                            <br>
+                            М А Р
+                        </p>
+                    </div>
+                    <div class="textContent">
+                         <p>02.03.2023</p>
+                         <p>МЕТРОПОЛИС</p>
+                         <br>
+                         <p class="favArtist textAnimation" 
+                         onmouseenter="addAnimation3(0)"
+                         onmouseleave="removeAnimation3()">
+                                Метрополис и новите лица на Техното
+                         </p>
+                         <p class="favArtist2 textAnimation" 
+                         onmouseenter="addAnimation3(0)"
+                         onmouseleave="removeAnimation3()">
+                                Метрополис и новите лица на Техното
+                         </p>
+                         <p class="favArtist3 textAnimation" 
+                         onclick="redirect('newsPages/futureHeroes.html')" 
+                         onmouseenter="addAnimation3(0)"
+                         onmouseleave="removeAnimation3()">
+                                Метрополис и новите лица на Техното
+                         </p>
+                            <br>
+                         <p id="grayFade1">
+                                Няма друга организация за електронна музика от такъв мащаб у нас, която да обръща толкова внимание на новите артисти от България и чужбина. 
+                                Защото смятаме, че публиката има право да се срещне с тях, а те заслужават тази среща. В това отношение наближ…
+                         </p>
+                    </div>
+                    <nav>
+                        <div class="seeMoreContainer" 
+                        onclick="redirect('newsPages/futureHeroes.html')" 
+                        onmouseenter="addAnimation2(event)" 
+                        onmouseleave="removeAnimation2('.seeMore')">
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                            <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        </div>
+                    </nav>
+            </article>
+
+            <article>
+                <img src="images/metropolis-blue-meltdown.jpeg" id="secondImg" alt="Metropolis">
+                <div class="box">
+                    <p>21
+                        <br>
+                        Ф Е В
+                    </p>
+                </div>
+                <div class="textContent">
+                    <p>21.02.2023</p>
+                    <p>МЕТРОПОЛИС</p>
+                    <br>
+                    <p class="favArtist textAnimation"
+                    onmouseenter="addAnimation3(1)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                        Истинско техно от <br> Метрополис
+                    </p>
+                    <p class="favArtist2 textAnimation"
+                    onmouseenter="addAnimation3(1)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                        Истинско техно от <br> Метрополис
+                    </p>
+                    <p class="favArtist3 textAnimation"
+                    onclick="redirect('newsPages/properTechno.html')" 
+                    onmouseenter="addAnimation3(1)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                        Истинско техно от <br> Метрополис
+                    </p>
+                    <br>
+                    <p id="grayFade2">
+                        На 4ти март в Регионален Център за Съвременни Изкуства Топлоцентрала (зад НДК) 
+                        Метрополис ще представи за първи път в България две от най-горещите имена на съвременното 
+                        техно Nørbak и Quelza. В двете зали на пулта ще застанат Dj STEVEN, SHADE, ZIGGY,…
+                    </p>
+                </div>
+                <nav>
+                    <div class="seeMoreContainer" 
+                    onclick="redirect('newsPages/properTechno.html')" 
+                    onmouseenter="addAnimation2(event)" 
+                    onmouseleave="removeAnimation2('.seeMore')">
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                    </div>
+                </nav>
+            </article>
+
+            <article>
+                <img src="images/Optimized-PHRANK.jpeg" id="thirdImg"  alt="Metropolis">
+                <div class="box">
+                    <p>10
+                        <br>
+                        Я Н У
+                    </p>
+                </div>
+                <div class="textContent">
+                    <p>10.01.2023</p>
+                    <p>МЕТРОПОЛИС</p>
+                    <br>
+                    <p class="favArtist textAnimation"
+                    onmouseenter="addAnimation3(2)"
+                    onmouseleave="removeAnimation3(event)"
+                    >
+                        Любими артисти на техно сцената на Pyramid Amnesia в София на 4ти февруари
+                    </p>
+                    <p class="favArtist textAnimation" id="favArtistText1"
+                    onmouseenter="addAnimation3(2)"
+                    onmouseleave="removeAnimation3(event)"
+                    >
+                        Любими артисти на техно сцената на Pyramid Amnesia в София на 4ти февруари
+                    </p>
+                    <p class="favArtist textAnimation" id="favArtistText2"
+                    onclick="redirect('newsPages/favArtists.html')" 
+                    onmouseenter="addAnimation3(2)"
+                    onmouseleave="removeAnimation3(event)"
+                    >
+                        Любими артисти на техно сцената на Pyramid Amnesia в София на 4ти февруари
+                    </p>
+                    <br>
+                    <p id="grayFade3">
+                        Огромният успех на Pyramid Amnesia е стъпил върху историята и неповторимата атмосфера,
+                        които са издигнали този супер клуб от остров Ибиса на космическо ниво, както и върху страхотния подбор на DJ…
+                    </p>
+                </div>
+                <nav>
+                    <div class="seeMoreContainer" 
+                    onclick="redirect('newsPages/favArtists.html')" 
+                    onmouseenter="addAnimation2(event)" 
+                    onmouseleave="removeAnimation2('.seeMore')">
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                    </div>
+                </nav>
+            </article>
+
+            <article>
+                <img src="images/Optimized-1.jpeg" id="thirdImg"  alt="Metropolis">
+                <div class="box">
+                    <p>28
+                        <br>
+                        Д Е К
+                    </p>
+                </div>
+                <div class="textContent">
+                    <p>28.12.2022</p>
+                    <p>МЕТРОПОЛИС</p>
+                    <br>
+                    <p class="favArtist textAnimation"
+                    onmouseenter="addAnimation3(3)"
+                    onmouseleave="removeAnimation3(event)"
+                    >
+                    Pyramid Amnesia пристига в София в целия си блясък на 4ти февруари
+                    </p>
+                    <p class="favArtist textAnimation" id="favArtistText1"
+                    onmouseenter="addAnimation3(3)"
+                    onmouseleave="removeAnimation3(event)"
+                    >
+                    Pyramid Amnesia пристига в София в целия си блясък на 4ти февруари
+                    </p>
+                    <p class="favArtist textAnimation" id="favArtistText2"
+                    onclick="redirect('newsPages/pyramidAmnesia.html')" 
+                    onmouseenter="addAnimation3(3)"
+                    onmouseleave="removeAnimation3(event)"
+                    >
+                    Pyramid Amnesia пристига в София в целия си блясък на 4ти февруари
+                    </p>
+                    <br>
+                    <p id="grayFade3">
+                        На 4ти февруари 2023 година 4та зала на столичния Интер Експо Център ще се превърне в един от най-популярните клубове в света с двете си зали – Terraza и Club. Заедно с резидентите Mar–T, Luca Donzelli и останалите Ди Джеи за вечерта…
+                    </p>
+                </div>
+                <nav>
+                    <div class="seeMoreContainer" 
+                    onclick="redirect('newsPages/pyramidAmnesia.html')" 
+                    onmouseenter="addAnimation2(event)" 
+                    onmouseleave="removeAnimation2('.seeMore')">
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                    </div>
+                </nav>
+            </article>
+
+            <article>
+                <img src="images/DubLab854.jpeg" id="secondImg" alt="Metropolis">
+                <div class="box">
+                    <p>30
+                        <br>
+                        Н О Е
+                    </p>
+                </div>
+                <div class="textContent">
+                    <p>30.11.2022</p>
+                    <p>МЕТРОПОЛИС</p>
+                    <br>
+                    <p class="favArtist textAnimation"
+                    onmouseenter="addAnimation3(4)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                    Невероятната нова визия <br> на Cocoon
+                    </p>
+                    <p class="favArtist2 textAnimation"
+                    onmouseenter="addAnimation3(4)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                    Невероятната нова визия <br> на Cocoon
+                    </p>
+                    <p class="favArtist3 textAnimation"
+                    onclick="redirect('newsPages/cocoon.html')" 
+                    onmouseenter="addAnimation3(4)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                    Невероятната нова визия <br> на Cocoon
+                    </p>
+                    <br>
+                    <p id="grayFade2">
+                        Тази събота в Интер Експо Център Cocoon ще представят новия сценичен дизайн, 
+                        който ще обиколи света следващата година. Така Българските почитатели на Свен Ват и 
+                        компания ще са първите, които ще станат свидетели на…
+                    </p>
+                </div>
+                <nav>
+                    <div class="seeMoreContainer" 
+                    onclick="redirect('newsPages/cocoon.html')" 
+                    onmouseenter="addAnimation2(event)" 
+                    onmouseleave="removeAnimation2('.seeMore')">
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                    </div>
+                </nav>
+            </article>
+
+            <article>
+                <img src="images/Ben-Klock-by-Joachim-Gern.jpeg" id="secondImg" alt="Metropolis">
+                <div class="box">
+                    <p>20
+                        <br>
+                        О К Т
+                    </p>
+                </div>
+                <div class="textContent">
+                    <p>20.10.2022</p>
+                    <p>МЕТРОПОЛИС</p>
+                    <br>
+                    <p class="favArtist textAnimation"
+                    onmouseenter="addAnimation3(5)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                    Metropolis представя Sonic <br> Voyager: Ben Klock
+                    </p>
+                    <p class="favArtist2 textAnimation"
+                    onmouseenter="addAnimation3(5)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                    Metropolis представя Sonic <br> Voyager: Ben Klock
+                    </p>
+                    <p class="favArtist3 textAnimation"
+                    onclick="redirect('newsPages/benKlock.html')" 
+                    onmouseenter="addAnimation3(5)"
+                    onmouseleave="removeAnimation3()"
+                    >
+                    Metropolis представя Sonic <br> Voyager: Ben Klock
+                    </p>
+                    <br>
+                    <p id="grayFade2">
+                        Тази събота в Интер Експо Център Cocoon ще представят новия сценичен дизайн, 
+                        който ще обиколи света следващата година. Така Българските почитатели на Свен Ват и 
+                        компания ще са първите, които ще станат свидетели на…
+                    </p>
+                </div>
+                <nav>
+                    <div class="seeMoreContainer" 
+                    onclick="redirect('newsPages/benKlock.html')" 
+                    onmouseenter="addAnimation2(event)" 
+                    onmouseleave="removeAnimation2('.seeMore')">
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                        <p class="seeMore" >ВИЖ ОЩЕ</p>
+                    </div>
+                </nav>
+            </article>
+
+        </section>
+
+        <section>
+            <div class="speakersSection">
+                <video autoplay loop id="vidSpeakers" src="video/vid_speakers.mp4"></video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="newsFooter">
+
+            <div class="footerText">
+                <span>
+                    <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                </span>
+
+                <span>
+                    <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                </span>
+                
+                <span>
+                    <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                </span>
+                
+                <span>
+                    <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                </span>
+                
+                <span>
+                    <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                </span>
+            </div>
+
+            <div class="logoFooter">
+                <img src="images/alien-white.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts/newsScript.js"></script>
+</body>
+</html>

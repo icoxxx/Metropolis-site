@@ -1,0 +1,65 @@
+.mainPodcastFlex{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.firstSectionMainPodcast{
+    width: 500px;
+    border-top: 7px solid rgb(227, 0, 26);
+    font-family: myFont;
+    margin-bottom: 100px;
+}
+
+
+
+.podcastArticle{
+    width: 100%;
+    background-color: white;
+    position: relative;
+    padding: 5px 10px;
+}
+
+.podcastArticle p span{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.secondSectionMainPodcast{
+    position: sticky;
+    top: 30px;
+    width: 500px;
+    height: 350px;
+    background-color: rgb(27, 27, 27);
+    margin-bottom: 100px;
+    border-top: 7px solid rgb(227, 0, 26);
+}
+
+.article2Title{
+    position: absolute;
+    left: 25px;
+    top: -50px;
+    font-family: myFont;
+    color: rgb(227, 0, 26);
+}
+
+.codaImg{
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 80px;
+    margin: 70px auto;
+}
+
+.radioButtonContainer{
+    width: 120px;
+    height: 60px;
+    background-color: rgb(227, 0, 26);
+    border-radius: 0 0 45px 0;
+    text-align: center;
+    cursor: pointer;
+    font-family: myFont;
+    position: relative;
+    margin: 0 auto;
+}

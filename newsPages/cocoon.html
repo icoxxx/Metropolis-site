@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocoon</title>
+    <link rel="stylesheet" href="../css-styles/style.css">
+    <link rel="stylesheet" href="../css-styles/newsPagesStyle.css">
+</head>
+<body>
+     <!-- HIDDEN MENU START -->
+     <nav>
+        <div class="menu">
+            <div class="menuLogo">
+                <img src="../images/logo.svg" alt="">
+            </div>
+            <div class="boxContainer">
+                <div class="textBox navMenuText">
+
+                    <span>
+                        <a href="../index.html" target="_self" >НАЧАЛО</a>
+                    </span>
+
+                    <span>
+                        <a href="../podcast.html" target="_self" >ПОДКАСТИ</a>
+                    </span>
+
+                    <span>
+                        <a href="../news.html" target="_self" >НОВИНИ</a>
+                    </span>
+
+                    <span>
+                        <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                    </span>
+
+                    <span>
+                        <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                    </span>
+                </div>
+                <div class="logoBox">
+                    <img src="../images/alien-white.png" width="250px" height="350px" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HIDDEN MENU END -->
+    <header>
+        <div class="grayContainer">
+            <a href="../index.html"  target="_self">
+                <img id="logo" src="../images/logo.svg" alt="">
+            </a>
+
+            <nav>
+                <div class="hambButton" id="firstHam" onclick="hamburger()">
+                    <div class="bar1 hamBars"></div>
+                    <div class="bar2 hamBars"></div>
+                    <div class="bar3 hamBars"></div>
+                </div>
+             </nav>
+        </div>
+    </header>
+
+    <main>
+       <section class="mainNewsFlex">
+            <div class="firstSectionMainNews">
+                <div class="newsArticle">
+                    <p>28.12.2022</p>
+                    <h1>Pyramid Amnesia пристига в София в целия си блясък на 4ти февруари</h1>
+                    <p>
+                        Тази събота в Интер Експо Център Cocoon ще 
+                        представят новия сценичен дизайн, който ще обиколи 
+                        света следващата година. Така Българските почитатели на Свен Ват 
+                        и компания ще са първите, които ще станат свидетели на аудио визуалното 
+                        пиршество, подготвено от DubLab, компанията на Жуао Карильо – един от 
+                        най-търсените видео дизайнери в момента.
+                    </p>
+
+                    <p>
+                        Какво е DubLab ? Това е водеща световна фирма за сценичен дизайн и видео 
+                        съдържание, базирана в Лисабон Португалия. И тъй като електронната музика е 
+                        тясно свързана с дигиталното видео изкуство, най-големите проекти на компанията 
+                        са именно в тази област. Техни клиенти са легендарните фестивали – Kappa 
+                        Futur, Time Warp, Neopop, Movement и MDRNTY, лейбъли като Cocoon, Diynamic и 
+                        Sci + Tec, както и артисти като Sven Vath, Dubfire, Loco Dice, Paco Osuna и Matador.
+                    </p>
+
+                    <p>
+                        Многогодишната връзка на DubLab с Cocoon най-добре показва развитието и 
+                        израстването във визуално отношение на това парти, започнало преди 20 години в 
+                        клуб Амнезия Ибиса и постепенно превзело света. Най – новият му 3D сценичен дизайн 
+                        включва мапинг проекция върху ликра, съчетана с огромен LED екран и изглежда 
+                        меко казано впечатляващо. Специално за събитието от Франкфурт пристига и
+                         снимачен екип, който ще заснеме рекламен клип за Cocoon 22/ 23.
+                    </p>
+                </div>
+            </div>
+
+            <div class="secondSectionMainNews">
+                <img src="../images/DubLab854.jpeg" alt="">
+            </div>
+       </section>
+           
+    </main>
+
+    <footer>
+        <div class="footer">
+
+            <div class="footerText">
+                <span>
+                    <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                </span>
+
+                <span>
+                    <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                </span>
+                
+                <span>
+                    <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                </span>
+                
+                <span>
+                    <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                </span>
+                
+                <span>
+                    <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                </span>
+            </div>
+
+            <div class="logoFooter">
+                <img src="../images/alien-white.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function hamburger(){
+    let bars = document.querySelectorAll(".hamBars");
+    let hamButton = document.querySelectorAll(".hambButton");
+    let hiddenMenu = document.querySelectorAll(".menu")
+
+    bars.forEach(el => {
+        el.classList.toggle("active");
+    })
+
+    hamButton.forEach(el => {
+        el.classList.toggle("hambButton-active");
+    })
+
+    hiddenMenu.forEach(el =>{
+        el.classList.toggle("menu-active");
+    })
+}
+    </script>
+</body>
+</html>

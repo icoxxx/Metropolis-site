@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast</title>
+    <link rel="stylesheet" href="css-styles/style.css">
+    <link rel="stylesheet" href="css-styles/newsPagesStyle.css">
+    <link rel="stylesheet" href="css-styles/podcastStyle.css">
+</head>
+<body>
+    <!-- HIDDEN MENU START -->
+    <nav>
+       <div class="menu">
+           <div class="menuLogo">
+               <img src="images/logo.svg" alt="">
+           </div>
+           <div class="boxContainer">
+               <div class="textBox navMenuText">
+
+                   <span>
+                       <a href="index.html" target="_self" >НАЧАЛО</a>
+                   </span>
+
+                   <span>
+                       <a href="podcast.html" target="_self" >ПОДКАСТИ</a>
+                   </span>
+
+                   <span>
+                       <a href="news.html" target="_self" >НОВИНИ</a>
+                   </span>
+
+                   <span>
+                       <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                   </span>
+
+                   <span>
+                       <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                   </span>
+                   
+                   <span>
+                       <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                   </span>
+                   
+                   <span>
+                       <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                   </span>
+                   
+                   <span>
+                       <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                   </span>
+               </div>
+               <div class="logoBox">
+                   <img src="images/alien-white.png" width="250px" height="350px" alt="">
+               </div>
+           </div>
+       </div>
+   </nav>
+   <!-- HIDDEN MENU END -->
+   <header>
+       <div class="grayContainer">
+           <a href="index.html"  target="_self">
+               <img id="logo" src="../images/logo.svg" alt="">
+           </a>
+
+           <nav>
+               <div class="hambButton" id="firstHam" onclick="hamburger()">
+                   <div class="bar1 hamBars"></div>
+                   <div class="bar2 hamBars"></div>
+                   <div class="bar3 hamBars"></div>
+               </div>
+            </nav>
+       </div>
+   </header>
+
+   <main>
+      <section class="mainPodcastFlex">
+           <div class="firstSectionMainPodcast">
+                <div width="100%">
+                    <iframe id="soundCloud" width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1036290277&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
+                </div>
+               <div class="podcastArticle" style="top: -5px;">
+                   <h1>Metropolis Podcast Series 020: DJ Steven</h1>
+                   <p>
+                    В тези трудни времена 95% от хората смятат, че с музика ще запазят психичното си здраве и ще преживеят 
+                    по-леко пандемията, локдауна и ограниченията. 
+                    И тъй като ние от Метрополис искаме да сте живи и здрави, ви предлагаме нашата терапия – 
+                    новата поредица Metropolis 
+                    Podcast Series, която два пъти месечно ще ви снабдява с изключително здравословна доза 
+                    от най-качествената електронна музика.
+                   </p>
+                   <p style="color: rgb(227, 0, 26);">
+                    DJ Steven comes with a new mix for Metropolis Podcast Series. 
+                    This time with future classics only. Electro-ish in the beginning with a 
+                    Stevo Kurt soon-to-be released track for Mekanika Recordings, driving in the middle and 
+                    hypnotic in the end – you got everything you need to get you dancing.
+                   </p>              
+                   <p>
+                      ENJOY!
+                   </p>
+               </div>
+           </div>
+
+           <div class="secondSectionMainPodcast">
+                <div class="article2Title">
+                    <p>РАДИО</p>
+                </div>
+                <img class="codaImg" src="images/coda-logo-1.png" alt="">
+                <div class="radioButtonContainer"
+                onclick="redirect('https:/coda.metropolis.bg/')" 
+                onmouseenter="addAnimationButton(0, '.radioButtonContainer', 1, 3, 5)" 
+                onmouseleave="removeAnimation2('.radioText')"
+                >
+                    <p class="radioText">СЛУШАЙ</p>
+                    <p class="radioText">СЛУШАЙ</p>
+                    <p class="radioText">СЛУШАЙ</p>
+                </div>
+            </div>
+      </section>
+          
+   </main>
+
+   <footer>
+       <div class="footer">
+
+           <div class="footerText">
+               <span>
+                   <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+               </span>
+
+               <span>
+                   <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+               </span>
+               
+               <span>
+                   <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+               </span>
+               
+               <span>
+                   <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+               </span>
+               
+               <span>
+                   <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+               </span>
+           </div>
+
+           <div class="logoFooter">
+               <img src="images/alien-white.png" alt="">
+           </div>
+       </div>
+   </footer>
+
+
+    <script src="scripts/podcastScript.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonic Voyager</title>
+    <link rel="stylesheet" href="../css-styles/style.css">
+    <link rel="stylesheet" href="../css-styles/newsPagesStyle.css">
+</head>
+<body>
+     <!-- HIDDEN MENU START -->
+     <nav>
+        <div class="menu">
+            <div class="menuLogo">
+                <img src="../images/logo.svg" alt="">
+            </div>
+            <div class="boxContainer">
+                <div class="textBox navMenuText">
+
+                    <span>
+                        <a href="../index.html" target="_self" >НАЧАЛО</a>
+                    </span>
+
+                    <span>
+                        <a href="../podcast.html" target="_self" >ПОДКАСТИ</a>
+                    </span>
+
+                    <span>
+                        <a href="../news.html" target="_self" >НОВИНИ</a>
+                    </span>
+
+                    <span>
+                        <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                    </span>
+
+                    <span>
+                        <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                    </span>
+                    
+                    <span>
+                        <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                    </span>
+                </div>
+                <div class="logoBox">
+                    <img src="../images/alien-white.png" width="250px" height="350px" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- HIDDEN MENU END -->
+    <header>
+        <div class="grayContainer">
+            <a href="../index.html"  target="_self">
+                <img id="logo" src="../images/logo.svg" alt="">
+            </a>
+
+            <nav>
+                <div class="hambButton" id="firstHam" onclick="hamburger()">
+                    <div class="bar1 hamBars"></div>
+                    <div class="bar2 hamBars"></div>
+                    <div class="bar3 hamBars"></div>
+                </div>
+             </nav>
+        </div>
+    </header>
+
+    <main>
+       <section class="mainNewsFlex">
+            <div class="firstSectionMainNews">
+                <div class="newsArticle">
+                    <p>28.09.2022</p>
+                    <h1>Metropolis представя Sonic Voyager: BEN KLOCK</h1>
+                    <p>
+                        Има ли нещо, което още не е казано за Бен Клок? „Постоянното присъствие“ 
+                        в топ 10 Resident Advisor – най-авторитетната класация за DJ в света, 
+                        резидент на най-известния техно клуб в света Berghain, носител на титлата 
+                        най-добър Essential mix за 2015 за предаването на Пит Тонг по Би Би Си радио 
+                        Едно. DJ, за когото маратонските сетове от по 2 часа на днешните „звезди“ 
+                        са направо смешни и може би един от най-безкомпромисните техно артисти, 
+                        които историята познава. Артист, чийто календар е запълнен за година напред. 
+                        Продуцент, на когото дори Depeche Mode могат да поверят своя песен за ремикс.
+                    </p>
+
+                    <img src="../images/benFadi.jpeg" width="100%" alt="">
+                
+                    <p>
+                        Но това, което не може да се опише с думи е атмосферата, която създава, 
+                        пътуването, на което изпраща публиката когато застава на пулта. И вместо да 
+                        се опитваме да го направим, просто ще ви поканим на 8 октомври в най-голямото 
+                        хале на Металснаб, където Метрополис ще открие есенния сезон.
+                    </p>
+
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/eE_2CcvMl7Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>                
+                    <p>
+                        Metropolis presents Sonic Voyager 2022 с Ben Klock, Ben Sims, Fadi Mohem и 
+                        Metropolis DJs ще се проведе на 08.10.2022 в двора на МеталСнаб – София. 
+                        Начало 22:00 часа. С подкрепата на Национален Фонд Култура.
+                    </p>
+                </div>
+            </div>
+
+            <div class="secondSectionMainNews">
+                <img src="../images/Ben-Klock-by-Joachim-Gern.jpeg" alt="">
+            </div>
+       </section>
+           
+    </main>
+
+    <footer>
+        <div class="footer">
+
+            <div class="footerText">
+                <span>
+                    <a href="https://www.facebook.com/MetropolisDJs" target="_blank" >FACEBOOK</a>
+                </span>
+
+                <span>
+                    <a href="https://twitter.com/MetropolisBG" target="_blank">TWITTER</a>
+                </span>
+                
+                <span>
+                    <a href="https://www.youtube.com/channel/UCT6R2OZqu9-nMjXyad69Icw/" target="_blank" >YOUTUBE</a>
+                </span>
+                
+                <span>
+                    <a href="https://www.instagram.com/metropolis_bg/" target="_blank">INSTAGRAM</a>
+                </span>
+                
+                <span>
+                    <a href="https://soundcloud.com/metropolis-bg" target="_blank">SOUNDCLOUD</a>
+                </span>
+            </div>
+
+            <div class="logoFooter">
+                <img src="../images/alien-white.png" alt="">
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script>
+        function hamburger(){
+    let bars = document.querySelectorAll(".hamBars");
+    let hamButton = document.querySelectorAll(".hambButton");
+    let hiddenMenu = document.querySelectorAll(".menu")
+
+    bars.forEach(el => {
+        el.classList.toggle("active");
+    })
+
+    hamButton.forEach(el => {
+        el.classList.toggle("hambButton-active");
+    })
+
+    hiddenMenu.forEach(el =>{
+        el.classList.toggle("menu-active");
+    })
+}
+    </script>
+</body>
+</html>
